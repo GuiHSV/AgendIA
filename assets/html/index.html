@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/index.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <main> <!--não seria melhor usar um id?-->
+        <form class="container">
+            <h1>Login</h1>
+
+            <div class="input-box"> <!--posso colocar a classe no input-->
+                <input type="email" placeholder="E-mail" id="login">
+            </div>
+
+            <div class="input-box">
+                <input type="password" placeholder="Senha" id="senha">
+            </div>
+
+            <div>
+                <a class="link" href="./changePassword.html">Esqueci a senha</a>
+            </div>
+
+            <button type="submit" class="button">Login</button>
+
+            <div id="register-account">
+                <p>Novo usuário? <a class="link" href="./signUp.html">Cadastre-se</a></p>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
