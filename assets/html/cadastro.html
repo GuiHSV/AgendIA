@@ -8,16 +8,16 @@
 </head>
 
 <body>
-    <main> <!--não seria melhor usar um id?-->
-        <form class="container">
+    <main>
+        <form class="container" id="cadastro-form">
             <h2>Cadastrar usuário</h2>
 
             <div class="input-box">
-                <input type="text" placeholder="Usuário" id="name">
+                <input type="text" placeholder="Usuário" id="nome">
             </div>
 
             <div class="input-box">
-                <input type="email" placeholder="e-mail" id="login">
+                <input type="email" placeholder="e-mail" id="email">
             </div>
 
             <div class="input-box">
@@ -28,8 +28,14 @@
                 <input type="password" placeholder="Confirmar senha" id="confirmar-senha">
             </div>
 
+            <div class="erro">
+                <p id="mensagem-erro"></p>
+            </div>
+
             <button type="submit" class="button">Cadastrar-se</button>
         </form>
     </main>
+
+    <script src="../js/cadastro.js"></script>
 </body>
 </html>
