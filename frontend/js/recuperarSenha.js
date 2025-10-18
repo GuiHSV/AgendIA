@@ -18,9 +18,9 @@ form1.addEventListener("submit", function(event) {
     }
 });
 
-const form2 = document.getElementById("recuperar-senha");
+const form_resetPassword = document.getElementById("recuperar-senha");
 
-form2.addEventListener("submit", function(event) {
+form_resetPassword.addEventListener("submit", function(event) {
     event.preventDefault();
 
 });

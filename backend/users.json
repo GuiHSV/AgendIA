@@ -1,7 +1,8 @@
 [
-    {
-        "name": "Gui",
-        "email": "admin@teste",
-        "password": "admin"
-    }
+  {
+    "id": 1760737469428,
+    "name": "admin",
+    "email": "admin@teste",
+    "password": "admin"
+  }
 ]
